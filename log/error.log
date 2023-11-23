@@ -1,0 +1,1 @@
+[Fri Oct 06 09:05:20.785789 2023] [autoindex:error] [pid 1260] [client 192.168.3.12:63295] AH01276: Cannot serve directory /var/www/html/212DWESProyectoTema3/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
