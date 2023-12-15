@@ -3,3 +3,6 @@ ErrorDocument 404 /errors/404.html
 ErrorDocument 403 /errors/403.html
 Redirect 301 /educa https://www.terra.com
 Options -Indexes
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://daw212.oscar.local/$1 [R,L]
